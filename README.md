@@ -4,7 +4,7 @@ Trust and public welfare society based on block chain
 
 
 
-中文名：信链
+中文名：信链   
 英文名：Block Chain Of Belie
 英文简称：BCB
 区块速度：10秒
