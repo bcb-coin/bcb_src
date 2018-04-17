@@ -1,6 +1,6 @@
 # bcb_src
-Trust and public welfare society based on block chain
-信链 Block Chain Of Belie 
+# Trust and public welfare society based on block chain
+# 信链 Block Chain Of Belie 
 
 
 
