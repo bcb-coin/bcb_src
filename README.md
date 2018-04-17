@@ -2,7 +2,7 @@
 Trust and public welfare society based on block chain
 # 信链 Block Chain Of Belie 
 
-
+![Logo](https://raw.githubusercontent.com/bcb-coin/bcb_src/master/bcb_logo.ico) 
 
 中文名：信链   
 英文名：Block Chain Of Belie   
