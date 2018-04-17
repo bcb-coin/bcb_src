@@ -1,0 +1,170 @@
+QWidget{background-color: rgb(235,235,235);}
+QFrame {background-color: rgb(27,71,120); border:none;}
+
+QPushButton#addButton,
+QPushButton#clearButton,
+QPushButton#sendButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+
+}
+
+QPushButton#addButton:hover,
+QPushButton#clearButton:hover,
+QPushButton#sendButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+QLabel#labelBalance,
+QLabel#sv_label
+{
+   background-color: rgb(235,235,235);
+}
+
+QLabel
+{
+  color:rgb(27,71,120)
+}
+
+QLabel#pay_label_2,
+QLabel#pay_label_4,
+QLabel#pay_label
+{
+  color: rgb(255,255,255);
+}
+
+QToolButton#addressBookButton
+{
+    margin-left:3px;
+      border: 1px solid #866D66;
+    border-radius: 2px;
+  background:url(:/res/skin/1.png);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+QToolButton#pasteButton
+{
+margin-left:2px;
+      border: 1px solid #866D66;
+    border-radius: 2px;
+  background:url(:/res/skin/2.png);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+QToolButton#deleteButton
+{
+margin-left:2px;
+      border: 1px solid #866D66;
+    border-radius: 2px;
+    border-radius: 2px;
+  background:url(:/res/skin/3.png);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+QToolTip
+{
+  color:#410409;
+  background-color: #D9CAB5; 
+}
+
+QValidatedLineEdit
+{
+ min-height:25px;
+  border:none;
+  background-color: rgb(255,255,255); 
+}
+
+QDoubleSpinBox
+{
+  color:#410409;
+  border:none;
+  min-height:25px;
+}
+
+QDoubleSpinBox:up-button
+{
+ margin-top:2px;
+  background:url(:/res/skin/arrow-up.png);
+  background-repeat:no-repeat;
+}
+
+QDoubleSpinBox:down-button
+{
+margin-top:2px;
+    background:url(:/res/skin/arrow-down.png);
+    background-repeat:no-repeat;
+}
+
+QValueComboBox
+{
+  border: 1px solid rgb(243,198,17);
+  border-radius: 2px;
+  color:rgb(255,255,255);
+  background-color:rgb(243,198,17);
+  min-height:25px;
+}
+
+QValueComboBox:drop-down
+{
+  border:none;
+}
+
+QComboBox::down-arrow
+{
+ margin-top:2px;
+  background:url(:/res/skin/combox-down.png);
+      background-repeat:no-repeat;
+}
+
+QComboBox QAbstractItemView {
+selection-background-color: rgb(27,71,120);
+}
+
+QMessageBox QLabel
+{
+  color:#410409;
+  background-color:rgb(235,235,235);  
+}
+
+QMessageBox QPushButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QMessageBox QPushButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+QToolTip
+{
+  background-color: rgb(235,245,246); 
+}

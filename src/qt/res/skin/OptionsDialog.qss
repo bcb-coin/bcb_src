@@ -1,0 +1,31 @@
+QWidget
+{
+    background-color:rgb(214,202,190);
+}
+
+QPushButton
+{
+color:#410409;
+}
+QTabBar::tab
+{
+  color:#410409; 
+}
+
+QLabel
+{
+  color:#410409; 
+}
+QCheckBox
+{
+  color:#410409; 
+}
+
+QDoubleSpinBox
+{
+  color:#410409;
+}
+QValueComboBox
+{
+  color:#410409;
+}

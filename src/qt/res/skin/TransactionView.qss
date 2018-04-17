@@ -1,0 +1,169 @@
+QWidget
+{
+  background-color: rgb(235,235,235); 
+}
+
+QWidget#tv_mainwidget
+{
+  background-color: rgb(235,235,235); 
+}
+
+QWidget#log_topwidget
+{
+   background-color:  rgb(27,71,120); 
+}
+
+QWidget#log_headwidget
+{
+   background-color: rgb(28,72,121); 
+}
+
+QLabel#tv_label_date,
+QLabel#tv_label_type,
+QLabel#tv_label_addr,
+QLabel#tv_label_amount
+{color:rgb(255,255,255); background-color: rgb(28,72,121);  }
+
+QComboBox#dateWidget,
+QComboBox#typeWidget
+{
+    color: rgb(27,71,120); 
+    border: 1px solid #32435E;
+    border-color: rgb(238, 229, 212);
+    border-radius: 4px;
+	background:rgb(255,255,255);
+}
+
+
+QComboBox::drop-down {
+/*border: 1px solid rgb(214,202,190);*/
+border:none;
+
+}
+
+QComboBox::down-arrow {
+background:transparent;
+image:url(:/res/skin/arrow_down.png);;
+}
+
+QLineEdit#addressWidget,
+QLineEdit#amountWidget
+{
+    color: rgb(27,71,120); 
+    border: 1px solid #32435E;
+    border-color: rgb(238, 229, 212);
+    border-radius: 4px;
+    background:rgb(255,255,255);
+}
+
+QTableView
+{border:none;background-color:rgb(255,255,255);}
+
+QHeaderView::section, QTableCornerButton::section {
+  color: #410409; 
+}
+
+
+QHeaderView::section, QTableCornerButton::section {
+color:rgb(18,235,250);
+}
+
+/*
+QHeaderView::section, QTableCornerButton::section {
+padding: 1px;
+border: none;
+border-bottom: 1px solid rgb(160, 160, 160);
+border-right: 1px solid rgb(160, 160, 160);
+border-bottom: 1px solid gray;
+background-color: qlineargradient(spread:reflect, 
+    x1:0, y1:0, x2:0, y2:1, 
+    stop:0 rgba(255, 255, 255, 255), 
+    stop:1 rgba(164, 164, 164, 255));
+}
+*/
+
+/*    messagebox config begin */
+QMessageBox QLabel
+{
+  color:#410409;
+  background-color:rgb(235,235,235);  
+}
+
+QMessageBox QPushButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QMessageBox QPushButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+/*    messagebox config end */
+
+QToolTip
+{
+  background-color: rgb(235,245,246); 
+}
+
+QScrollBar:vertical
+{
+    border:none;
+    background-color:#d8e5f5;
+    width:  16px;
+    margin: 17px 0px 16px 0;
+}
+
+QScrollBar::handle:vertical
+{
+    border: 0.5px solid #aacbee;
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #d8e5f5, stop: 1 #e8f3ff);
+    border-radius: 3px;
+    min-height: 15px;
+    margin: 0px 0px 0 -0.5px;
+}
+
+QScrollBar::handle:pressed
+{
+    background-color:qlineargradient(x1:0,y1:0,x2:1,y2:0, stop: 0 #e8f3ff, stop: 1 #d8e5f5);
+}
+
+QScrollBar::add-line:vertical
+{
+    border: none;
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical
+{
+    border:none;
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:vertical
+{
+  border:none;
+   background-color:rgb(27,71,120);
+}
+
+QScrollBar::down-arrow:vertical
+{
+  border:none;
+   background-color:rgb(27,71,120);
+}

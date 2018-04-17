@@ -1,0 +1,104 @@
+QWidget
+{
+background-color: rgb(235,235,235);
+}
+QLabel#addr_label1,
+QLabel#addr_label2
+{
+color:rgb(255,255,255);
+background-color: rgb(28,72,121); 
+}
+
+QTableView
+{
+  border:none;
+  color: #410409; 
+  background-color: rgb(255,255,255); 
+}
+
+QPushButton#newAddressButton,
+QPushButton#copyToClipboard,
+QPushButton#showQRCode,
+QPushButton#signMessage,
+QPushButton#verifyMessage,
+QPushButton#deleteButton,
+QPushButton#buttonBox
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QPushButton#newAddressButton:hover,
+QPushButton#copyToClipboard:hover,
+QPushButton#showQRCode:hover,
+QPushButton#signMessage:hover,
+QPushButton#verifyMessage:hover,
+QPushButton#deleteButton:hover,
+QPushButton#buttonBox:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166);  
+}
+
+QPushButton#newAddressButton:disabled,
+QPushButton#copyToClipboard:disabled,
+QPushButton#showQRCode:disabled,
+QPushButton#signMessage:disabled,
+QPushButton#verifyMessage:disabled,
+QPushButton#deleteButton:disabled,
+QPushButton#buttonBox:disabled
+{
+    border: 1px solid #32435E;
+    border-color: rgb(204,204,204);
+    border-radius: 4px;
+  color:#410409;
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(204,204,204); 
+}
+
+/*    messagebox config begin */
+QMessageBox QLabel
+{
+  color:#410409;
+  background-color:rgb(235,235,235);  
+}
+
+QMessageBox QPushButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QMessageBox QPushButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+/*    messagebox config end */
+
+QToolTip
+{
+  background-color: rgb(235,245,246); 
+}

@@ -1,0 +1,78 @@
+QWidget
+{
+    background-color:rgb(235,235,235);
+}
+
+QLineEdit
+{
+  background-color:rgb(255,255,255);
+}
+
+QLineEdit:disabled
+{
+  background-color:rgb(211,211,211);
+}
+
+QPushButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QPushButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+QLabel
+{
+  color:rgb(101,101,101);
+  background-color:rgb(235,235,235);  
+}
+
+/*    messagebox config begin */
+QMessageBox QLabel
+{
+  color:#410409;
+  background-color:rgb(235,235,235);  
+}
+
+QMessageBox QPushButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QMessageBox QPushButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+/*    messagebox config end */
+
+QToolTip
+{
+  background-color: rgb(235,245,246); 
+}

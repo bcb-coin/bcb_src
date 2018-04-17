@@ -1,0 +1,8 @@
+QMenu
+{
+  border: 1px solid #32435E;
+  color:rgb(101,101,101);
+  background-color: rgb(235,235,235); 
+}
+
+QMenu::item:selected{background-color:rgb(122,142,166);color:#FFFFFF;}

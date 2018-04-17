@@ -1,0 +1,229 @@
+QWidget 
+{
+  background-color: rgb(235,235,235); 
+}
+
+QWidget:focus{outline: none;}
+
+QWidget #topwidget
+{
+    background-color: rgb(28,72,121); 
+}
+
+QWidget #middlewidget,
+QWidget #statwidget
+{
+  background-color:  rgb(235,235,235); 
+}
+
+QLabel#labelConnectionsIcon,
+QLabel#labelBlocksIcon,
+QLabel#labelEncryptionIcon,
+QLabel#progressBarLabel
+{
+  background-color:   rgb(235,235,235); 
+}
+
+QLabel#labellogo
+{
+  background:url(:/res/skin/logo.png);
+  background-repeat:no-repeat;
+}
+
+QLabel#labellogotext
+{
+margin-top:8px;
+  background:url(:/res/skin/logotext.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_desc
+{
+  margin-top:0px;
+  margin-left:8px;
+  min-width:70px;
+  border:none;
+  background:url(:/res/skin/desc.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_desc:hover,
+QPushButton#btn_desc:checked
+{
+	margin-top:2px;
+min-width:70px;
+  border:none;
+  background:url(:/res/skin/desc02.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_send
+{
+min-width:70px;
+  border:none;
+  background:url(:/res/skin/sendcoin.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_send:hover,
+QPushButton#btn_send:checked
+{
+min-width:70px;
+margin-top:2px;
+  border:none;
+  background:url(:/res/skin/sendcoin02.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_recv
+{
+min-width:70px;
+  border:none;
+  background:url(:/res/skin/recvcoin.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_recv:hover,
+QPushButton#btn_recv:checked
+{
+margin-top:2px;
+min-width:70px;
+  border:none;
+  background:url(:/res/skin/recvcoin02.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_addrs
+{
+min-width:70px;
+
+  border:none;
+  background:url(:/res/skin/addrs.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_addrs:hover,
+QPushButton#btn_addrs:checked
+{
+margin-top:2px;
+min-width:70px;
+  border:none;
+  background:url(:/res/skin/addrs02.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_logs
+{
+  border:none;
+  background:url(:/res/skin/logs.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_logs:hover,
+QPushButton#btn_logs:checked
+{
+margin-top:2px;
+  border:none;
+  background:url(:/res/skin/logs02.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_export
+{
+  border:none;
+  background:url(:/res/skin/export.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_export:hover,
+QPushButton#btn_export:checked
+{
+  border:none;
+  background:url(:/res/skin/export02.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_export:disabled
+{
+  border:none;
+  background:url(:/res/skin/export01.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_blockview
+{
+  border:none;
+  background:url(:/res/skin/blockview.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_blockview:hover,
+QPushButton#btn_blockview:checked
+{
+margin-top:2px;
+  border:none;
+  background:url(:/res/skin/blockview02.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_cloudbuy
+{
+  border:none;
+  background:url(:/res/skin/cloudbuy.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_cloudbuy:hover,
+QPushButton#btn_cloudbuy:checked
+{
+  border:none;
+  background:url(:/res/skin/cloudbuy02.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_skin,
+QPushButton#pushButton_9,
+QPushButton#pushButton_10,
+QPushButton#pushButton_11,
+QPushButton#btn_close
+{
+  border:none;
+  color:rgb(28,72,121);
+  background-color:rgb(235,235,235); 
+}
+
+/*    messagebox config begin */
+QMessageBox QLabel
+{
+  color:#410409;
+  background-color:rgb(235,235,235);  
+}
+
+QMessageBox QPushButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QMessageBox QPushButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+/*    messagebox config end */
+
+QToolTip
+{
+  background-color: rgb(235,245,246); 
+}

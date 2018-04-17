@@ -1,0 +1,192 @@
+QWidget#spacewidget
+{
+  background-color: rgb(235,235,235);
+}
+
+QWidget#infowidget,QWidget#bottomwidget{background-color: rgb(235,235,235); }
+
+QWidget#infowidget_2{
+background-color: rgb(255,255,255); 
+}
+
+QWidget#ov_topwidget,
+QWidget#ov_topwidget_2
+{
+  background-color: rgb(28,72,121); 
+}
+
+QLabel#ov_label_pic1
+{
+  margin-left:15px;
+  background:url(:/res/skin/walpic.png);
+  background-repeat:no-repeat;
+}
+
+QLabel#ov_label_7
+{
+  margin-left:15px;
+  background:url(:/res/skin/logspic.png);
+  background-repeat:no-repeat;
+}
+
+QLabel#ov_label_2,labelWalletStatus,
+QLabel#labelWalletStatus,
+QLabel#ov_label_8,
+QLabel#labelTransactionsStatus,
+QLabel#ov_label_6,
+QLabel#labelNumTransactions
+{
+  margin-top:2px;
+  color:#FFFFFF;
+  background-color: rgb(28,72,121); 
+}
+
+QLabel#ov_label_8
+{
+  min-width:76px;
+}
+
+QLabel#ov_label_3,
+QLabel#ov_label_4,
+QLabel#ov_label_5,
+QLabel#labelImmatureText
+{
+  color:rgb(122,142,166);
+  background-color: rgb(255,255,255); 
+}
+
+QLabel#labelBalance,
+QLabel#labelUnconfirmed,
+QLabel#labelStake,
+QLabel#labelImmature
+{
+ color:rgb(28,72,121);
+    background-color: rgb(255,255,255); 
+}
+
+QPushButton#unlockWalletButton
+{
+  border:none;
+    background-color: rgb(235,235,235); 
+    color:rgb(28,72,121);
+}
+
+QPushButton#unlockWalletButton:disabled
+{
+  border:none;
+    background-color: rgb(235,235,235); 
+    color:rgb(146,146,146);
+}
+
+QPushButton#btn_duobao
+{
+  border:none;
+  background:url(:/res/skin/duobao.png);
+  background-repeat:no-repeat;
+}
+
+QPushButton#btn_homepage
+{
+  border:none;
+  background:url(:/res/skin/homepage.png);
+  background-repeat:no-repeat;
+}
+
+QListView#listTransactions
+{
+  background-color: #ffffff; 
+}
+
+QLabel#label_time,
+QLabel#label_addr,
+QLabel#label_amount
+{
+  color:rgb(97,16,23);
+  background-color: rgb(235,235,235); 
+}
+
+QScrollBar:vertical
+{
+    border:none;
+    background-color:#d8e5f5;
+    width:  16px;
+    margin: 17px 0px 16px 0;
+}
+
+QScrollBar::handle:vertical
+{
+    border: 0.5px solid #aacbee;
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #d8e5f5, stop: 1 #e8f3ff);
+    border-radius: 3px;
+    min-height: 15px;
+    margin: 0px 0px 0 -0.5px;
+}
+
+QScrollBar::handle:pressed
+{
+    background-color:qlineargradient(x1:0,y1:0,x2:1,y2:0, stop: 0 #e8f3ff, stop: 1 #d8e5f5);
+}
+
+QScrollBar::add-line:vertical
+{
+    border: none;
+    height: 20px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical
+{
+    border:none;
+    height: 20px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::up-arrow:vertical
+{
+  border:none;
+   background-color:rgb(27,71,120);
+}
+
+QScrollBar::down-arrow:vertical
+{
+  border:none;
+   background-color:rgb(27,71,120);
+}
+
+/*    messagebox config begin */
+QMessageBox QLabel
+{
+  color:#410409;
+  background-color:rgb(235,235,235);  
+}
+
+QMessageBox QPushButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QMessageBox QPushButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+/*    messagebox config end */
+
+QToolTip
+{
+  background-color: rgb(235,245,246); 
+}

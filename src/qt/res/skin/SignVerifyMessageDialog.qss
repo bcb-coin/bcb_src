@@ -1,0 +1,107 @@
+QWidget 
+{
+  background-color: rgb(235,235,235); 
+}
+
+QPushButton#signMessageButton_SM,
+QPushButton#clearButton_SM,
+QPushButton#verifyMessageButton_VM,
+QPushButton#clearButton_VM
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120);  
+}
+
+QPushButton#signMessageButton_SM:hover,
+QPushButton#clearButton_SM:hover,
+QPushButton#verifyMessageButton_VM:hover,
+QPushButton#clearButton_VM:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+QPushButton#addressBookButton_SM,
+QPushButton#addressBookButton_VM
+{
+border:none;
+min-width:30px;
+min-height:30px;
+  background:url(:/res/skin/1.png);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+QPushButton#pasteButton_SM
+{
+border:none;
+min-width:30px;
+min-height:30px;
+  background:url(:/res/skin/2.png);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+
+QLabel#infoLabel_SM,
+QLabel#infoLabel_VM
+{
+color:rgb(101,101,101); 
+background-color: rgb(235,235,235); 
+}
+
+QValidatedLineEdit#addressIn_VM
+{
+color:rgb(101,101,101); 
+background-color: rgb(235,235,235); 
+}
+
+QTabBar::tab
+{
+  color:rgb(27,71,120); 
+}
+
+/*    messagebox config begin */
+QMessageBox QLabel
+{
+  color:#410409;
+  background-color:rgb(235,235,235);  
+}
+
+QMessageBox QPushButton
+{
+    border: 1px solid;
+    border-color: rgb(27,71,120);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(27,71,120); 
+}
+
+QMessageBox QPushButton:hover
+{
+    border: 1px solid;
+    border-color: rgb(122,142,166);
+    border-radius: 4px;
+  color:rgb(235,235,235);
+  min-width: 90px;
+  min-height: 30px;
+  background-color: rgb(122,142,166); 
+}
+
+/*    messagebox config end */
+
+QToolTip
+{
+  background-color: rgb(235,245,246); 
+}
