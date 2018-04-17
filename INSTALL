@@ -1,0 +1,9 @@
+Building dreamcreditCoin
+
+See doc/readme-qt.rst for instructions on building dreamcreditCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of dreamcreditCoin.
+
+See doc/build-*.txt for instructions on building dreamcreditCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of dreamcreditCoin.
