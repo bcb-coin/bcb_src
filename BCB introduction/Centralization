@@ -1,1 +1,19 @@
-1
+De centralization is a phenomenon or structure that can only occur in systems with a large number of users or many nodes, each of which has a high degree of autonomy. 
+Each user can connect and influence other nodes. Nodes can be freely connected to each other to form new connection units. Any node may become the center of the stage, but it does not have the mandatory central control function. 
+The influence between nodes and nodes will form nonlinear causality through the network. Generally speaking, everyone is the center, and everyone can connect and influence other nodes. This flat, open, equal phenomenon or structure is called "de centralization".
+
+At the same time, "de centralization" is one of the typical features of block chain. Using distributed storage and calculation force, the rights and obligations of the whole network node are the same. The data in the system is essentially maintained by the whole network node, and the block chain is no longer dependent on the central processing node to realize the distributed storage, record and update of the data. Each block chain follows a unified rule, which is based on a cryptographic algorithm rather than a credit certificate, and the data update process needs to be approved by the user. Thus, the block chain is not required to endorse the agency with the trust agency.
+
+De centralization application
+
+De centralization is an application with the following characteristics:
+
+1.It must be fully open source, independent operation, and can not be manipulated by centralization of organizations, institutions, or individuals, and can be improved to respond to market demand, but it must be accepted by the users.
+
+2.Data must be stored in a distributed network safely, publicly and redundantly to avoid tampering and single point failure.
+
+3.Applications require users to consume tokens, while application contributors can get token rewards.
+
+4.Application must use a value proof cryptography algorithm to generate tokens.
+
+5.To the center of the application can be developed through the authorization system to the application of equity investment, which has the potential to achieve self-sufficiency. Go to the center of the application and advantages of open and transparent, safe and reliable, to trust etc.. The future application of centralization will have great prospects in the fields of payment, data storage, cloud computing, electronic commerce and so on. Its value may even exceed the market value of visa, Dropbox, Amazon and other multinational corporations.
