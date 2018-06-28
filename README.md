@@ -1,11 +1,11 @@
 # bcb_src
 Trust and public welfare society based on block chain
-# 信链 Block Chain Of Belie 
+# 信链 Block Chain Of Belief 
 
 ![Logo](https://raw.githubusercontent.com/bcb-coin/bcb_src/master/bcb_logo.ico) 
 
 中文名：信链   
-英文名：Block Chain Of Belie   
+英文名：Block Chain Of Belief   
 英文简称：BCB   
 区块速度：10秒   
 发行总量：8.4亿   
